@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "22639152944",
+    "project_id": "lfm-app-1f629",
+    "storage_bucket": "lfm-app-1f629.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:22639152944:android:db32c750eeaa46a78f42f5",
+        "android_client_info": {
+          "package_name": "com.anjeroma.LFM"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "22639152944-l7iorj7r3fqvgu34f2f6hi12tj8i5pc3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYY_Ucs3yLsmfNTqYqDJI7yPusMBKCid8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "22639152944-l7iorj7r3fqvgu34f2f6hi12tj8i5pc3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

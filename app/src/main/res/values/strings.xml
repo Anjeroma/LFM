@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LFM</string>
+    <string name="email">Email</string>
+    <string name="login">Login</string>
+    <string name="log_in">LOG IN</string>
+    <string name="create_an_account">create an account?</string>
+</resources>

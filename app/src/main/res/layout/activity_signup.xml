@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Signup">
+
+
+    <ImageView
+        android:id="@+id/atclogo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/atc"
+        android:layout_marginTop="70dp"
+        android:layout_marginStart="135dp"/>
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/atclogo"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:hint="eneter name"
+        android:inputType="text"
+        android:textSize="20sp"
+        android:background="@drawable/box"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="266dp" />
+
+    <EditText
+        android:id="@+id/youremail"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/username"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:autofillHints=""
+        android:hint="enter email"
+        android:inputType="textEmailAddress"
+        android:textSize="20sp"
+        android:background="@drawable/box"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="316dp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/youremail"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:hint="enter password"
+        android:inputType="textPassword"
+        android:textSize="20sp"
+        android:background="@drawable/box"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="379dp" />
+
+
+    <TextView
+        android:id="@+id/sign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/password"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:text="login"
+        android:textColor="@color/purple_700"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="535dp" />
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sign"
+        android:layout_centerInParent="true"
+        android:background="@drawable/mycolor"
+        android:drawableRight="@drawable/iconlogout"
+        android:minHeight="32dp"
+        android:text="register"
+        android:textSize="30dp"
+        tools:ignore="TextContrastCheck"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="621dp"
+        android:layout_marginTop="10dp"
+        />
+
+
+</RelativeLayout>

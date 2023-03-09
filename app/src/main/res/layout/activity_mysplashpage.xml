@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mysplashpage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/box"
+        android:orientation="vertical"
+        android:id="@+id/mylayer2"
+        android:backgroundTint="@color/white"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/box"
+        android:orientation="vertical"
+        android:id="@+id/mylayer1"
+        android:backgroundTint="@color/purple_700"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="20dp"
+
+        >
+    <ImageView
+        android:id="@+id/mylogo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="200dp"
+        android:src="@drawable/atc"
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="70dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LFM"
+            android:textSize="50dp"
+            android:id="@+id/lfm"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="2dp"
+            android:textColor="@color/white"
+            android:layout_marginLeft="140dp"
+            tools:layout_editor_absoluteX="160dp"
+            tools:layout_editor_absoluteY="455dp"
+            />
+    </LinearLayout>
+</LinearLayout>
+</RelativeLayout>
